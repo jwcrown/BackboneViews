@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Building View</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>    
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="red">People & Stacks</h1>
+
+    <div class="boxes">
+        <ul class="people">
+            <script id="PeopleTemplate" type="text/template">
+                <%= name %>
+            </script>
+        </ul>
+    </div>
+    
+    <div class="boxes">
+        <ul class="stacks">
+            <script id="StackTemplate" type="text/template">
+                <%= name %>
+            </script>
+        </ul>
+    </div>
+    <script src="js/scripts.js"></script>    
+</body>
+</html>
